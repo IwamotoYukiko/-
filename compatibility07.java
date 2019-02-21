@@ -15,28 +15,22 @@ public class compatibility07 {
         int junleAns = junle.nextInt();
 
         if (junleAns == 1) {
-            String[] array = {"焼き鳥は塩よりタレ派だ", "餃子は焼き餃子派だ", "ワインは白派だ", "焼肉には白飯が欠かせない"};
-
-            List<String> list=Arrays.asList(array);
+            List<String> list=Arrays.asList("焼き鳥は塩よりタレ派だ", "餃子は焼き餃子派だ", "ワインは白派だ", "焼肉には白飯が欠かせない");
             Collections.shuffle(list);
-            String[] array2 =(String[])list.toArray(new String[list.size()]);
-            printArray(array2);
+            String[] array =(String[])list.toArray(new String[list.size()]);
+            printArray(array);
 
 
         } else if (junleAns == 2){
-            String[] array = {"ペットを飼っているor飼いたい" , "動物の動画をyoutube等でよくみる", "動物のlineスタンプをすぐ買ってしまう", "猫派だ"};
-            List<String> list=Arrays.asList(array);
+            List<String> list=Arrays.asList("ペットを飼っているor飼いたい" , "動物の動画をyoutube等でよくみる", "動物のlineスタンプをすぐ買ってしまう", "猫派だ");
             Collections.shuffle(list);
-            String[] array2 =(String[])list.toArray(new String[list.size()]);
+            String[] array =(String[])list.toArray(new String[list.size()]);
             printArray(array);
 
         } else if (junleAns == 3){
-            String[] array = {"家より映画館で観たい" , "洋画は字幕で観たい", "映画を観ると、すぐにその映画のサントラをダウンロードしてしまう", "ネタバレをチェックしてししまう"};
-
-            List<String> list=Arrays.asList(array);
+            List<String> list=Arrays.asList("家より映画館で観たい" , "洋画は字幕で観たい", "映画を観ると、すぐにその映画のサントラをダウンロードしてしまう", "ネタバレをチェックしてししまう");
             Collections.shuffle(list);
-            String[] array2 =(String[])list.toArray(new String[list.size()]);
-
+            String[] array =(String[])list.toArray(new String[list.size()]);
             printArray(array);
         }
 
